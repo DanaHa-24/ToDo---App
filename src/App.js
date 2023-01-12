@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
 import TodoFilters from './components/TodoFilters';
-import TodoInput from './components/TodoInput.js';
-import TodoList from './components/TodoList.js';
+import TodoInput from './components/ToDoInput';
+import TodoList from './components/ToDoList';
 
 const LOCAL_STORAGE_KEY = 'todoApp.todos';
 
@@ -101,22 +101,24 @@ function App() {
 
 
   return (
-      <div>
+      <div class="main">
+        <div class="global">
+          <div class="banner">
+              <TodoInput newTodoInput={newTodoInput} handleAddTodo={handleAddTodo} />
 
-      <TodoInput newTodoInput={newTodoInput} handleAddTodo={handleAddTodo} />
+              <TodoList todos={filteredTodos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
 
-      <TodoList todos={filteredTodos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
-
-      <TodoFilters
-        countRemaining={countRemaining} 
-        setFilter={setFilter}
-        handleClear={handleClear}
-        allFilterActive={allFilterActive}
-        activeFilterActive={activeFilterActive}
-        completedFilterActive={completedFilterActive}
-      />
-
-    </div>
+              <TodoFilters
+              countRemaining={countRemaining} 
+              setFilter={setFilter}
+              handleClear={handleClear}
+              allFilterActive={allFilterActive}
+              activeFilterActive={activeFilterActive}
+              completedFilterActive={completedFilterActive}
+              />
+            </div>
+        </div>
+      </div>
   );
 }
 

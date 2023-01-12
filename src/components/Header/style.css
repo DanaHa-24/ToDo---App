@@ -1,0 +1,23 @@
+.header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #FFF;
+    padding-top: .5rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+.toggle-icon {
+    background: none;
+    border: none;
+}
+
+.toggle-icon:hover {
+    cursor: pointer;
+    opacity: .75;
+}

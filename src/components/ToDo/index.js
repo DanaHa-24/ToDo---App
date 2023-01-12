@@ -1,3 +1,4 @@
+import './style.css'
 import classNames from 'classnames';
 import React from 'react'
 
@@ -18,7 +19,7 @@ export default function Todo({ todo, toggleTodo, deleteTodo }) {
     
 
   return (
-    <div>
+    <div class= "todo_com">
         <label className={labelClasses}>
             <input className="todo-checkbox" type="checkbox" checked={todo.complete} onChange={handleToggle} />
             <span className="custom-checkbox"></span>

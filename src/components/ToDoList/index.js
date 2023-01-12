@@ -1,5 +1,6 @@
+import './style.css'
 import React from 'react';
-import Todo from './Todo';
+import Todo from '../ToDo';
 
 
 export default function TodoList({ todos, toggleTodo, deleteTodo, classNames }) {

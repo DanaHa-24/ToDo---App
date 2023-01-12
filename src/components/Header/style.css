@@ -1,8 +1,11 @@
 .header {
-    height: 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    z-index: 10;
+    font-family: "Josefin Sans";
+    font-size: 35px;
+    letter-spacing: 12px;
+    color: white;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -20,4 +23,20 @@
 .toggle-icon:hover {
     cursor: pointer;
     opacity: .75;
+}
+
+.main {
+    background: #25273C;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+}
+
+.todoPanel {
+    background: #25273C;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
 }

@@ -3,7 +3,6 @@
     margin-bottom: 1rem;
 }
 
-
 .todo-input,
 .todo-submit {
     height: 3.25rem;
@@ -11,12 +10,18 @@
 }
 
 .todo-input {
-    width: 19.25rem;
-    padding-left: 3rem;
-    position: relative;
-    font-family: 'Josefin Sans', sans-serif;
-    border-top-left-radius: .4rem;
-    border-bottom-left-radius: .4rem;
+  z-index: 10;
+  position: relative;
+  padding: 16px 50px;
+  width: 100%;
+  background: #25273C;
+  border: none;
+  border-radius: 4px ;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  color: #CACDE8;
 }
 
 .todo-input:focus{

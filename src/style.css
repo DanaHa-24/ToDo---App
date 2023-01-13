@@ -1,0 +1,33 @@
+.global {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main{
+    width: 22rem;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner{
+    background-image: url('./components/images/bg-desktop-dark.jpg');
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 15rem;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+        

@@ -1,0 +1,42 @@
+.header {
+    z-index: 10;
+    font-family: "Josefin Sans";
+    font-size: 35px;
+    letter-spacing: 12px;
+    color: white;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #FFF;
+    padding-top: .5rem;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+.toggle-icon {
+    background: none;
+    border: none;
+}
+
+.toggle-icon:hover {
+    cursor: pointer;
+    opacity: .75;
+}
+
+.main {
+    background: #25273C;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+}
+
+.todoPanel {
+    background: #25273C;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+}

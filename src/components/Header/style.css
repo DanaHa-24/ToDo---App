@@ -10,14 +10,18 @@
 
 .title {
     color: #FFF;
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     letter-spacing: 10px;
     font-weight: 700;
+    display: flex;
+    margin: 0px 230px -50px;
 }
 
 .toggle-icon {
     background: none;
     border: none;
+    display: flex;
+    margin: 0px 870px 50px;
 }
 
 .toggle-icon:hover {
@@ -26,7 +30,8 @@
 }
 
 .main {
-    background: #25273C;
+    background-image: url('/src/images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
     border: none;
     border-radius: 4px;
     position: relative;

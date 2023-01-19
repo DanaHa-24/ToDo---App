@@ -1,6 +1,9 @@
 .todo-container {
     position: relative;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 .todo-input,
@@ -10,18 +13,19 @@
 }
 
 .todo-input {
-  z-index: 10;
-  position: relative;
-  padding: 16px 50px;
-  width: 100%;
-  background: #25273C;
-  border: none;
-  border-radius: 4px ;
-  font-family: Josefin Sans;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1;
-  color: #CACDE8;
+    z-index: 10;
+    position: relative;
+    padding: 16px 50px;
+    width: 50%;
+    height: 20%;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    color: #393A4C;
 }
 
 .todo-input:focus{
@@ -31,11 +35,15 @@
 
 .todo-submit {
     position: absolute;
-    right: 0;
+    right: 30px;
     width: 2.75rem;
     font-size: 1.25rem;
-    border-top-right-radius: .4rem;
-    border-bottom-right-radius: .4rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 150px;
 }
 
 .todo-submit::hover {

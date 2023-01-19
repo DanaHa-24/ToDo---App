@@ -1,15 +1,15 @@
 .todo_com {
     padding: 16px 15px;
-    width: 100%;
+    width: 90%;
     font-family: Josefin Sans, serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 1;
-    color: #CACDE8;
+    color: #393A4C;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid #393A4C;
+    justify-content: space-evenly;
 }
 
 .todo-name {
@@ -24,12 +24,11 @@
 }
 
 .complete-todo {
-    margin-left: 10px;
+  margin-left: 10px;
   color: #4D5066;
   text-decoration: line-through;
   word-wrap: break-word;
   word-break: break-all;
-  margin-right: 10px;
 }
 
 .todo-checkbox {

@@ -1,7 +1,7 @@
 import './style.css'
 import React from 'react'
 
-const Header = () => {
+const Header = ({toggleTheme}) => {
 
   return (
     <div class="header">

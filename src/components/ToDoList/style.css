@@ -1,0 +1,13 @@
+.list-todos {
+    margin: 50px 235px 300px;
+    position: relative;
+    width: 59%;
+    z-index: 20;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 5mm;
+    border-radius: 2px;
+}
